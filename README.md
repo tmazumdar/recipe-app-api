@@ -15,3 +15,6 @@ Recipe API project.
 
 ### run migration scripts
 - `docker compose run --rm app sh -c "python manage.py makemigrations"`
+
+### start the service on deployed server
+- `docker compose -f docker-compose-deploy.yml up -d`
